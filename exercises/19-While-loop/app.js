@@ -5,11 +5,14 @@ function startCounting()
 	var counter = 100;
 	while(counter <= 100)
 	{
-		counter --;
+		counter ++;
 		console.log(counter);
+		
 	}
 	
 	return counter;
 }
 
 startCounting();
+
+//i dont know this one lmao 

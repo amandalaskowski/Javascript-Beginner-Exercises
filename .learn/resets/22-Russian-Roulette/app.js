@@ -7,12 +7,8 @@ const spinChamber = () => {
 
 // Remove the // below and complete the commented lines
 const fireGun = (spinnerPosition) => {
-   if(spinnerPosition === spinChamber()){
-       console.log("You're dead!")
-   }
-   else if(spinnerPosition !== spinChamber()){
-       console.log("Keep playing!")
-   }
+    //if (...) return ("You're dead!");
+    //else return ("Keep playing!");
 };
 
-console.log(fireGun(5));
+//console.log(fireGun(...));
